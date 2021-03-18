@@ -28,7 +28,7 @@ public class TextStatistics implements TextStatisticsInterface{
 	        Scanner myReader = new Scanner(textFile);
 	        //while there is a next line in scanner execute code within
 	        while (myReader.hasNextLine()) {
-	        	//count chars in line and add num to charCount
+	        	//count chars in line and add num of chars found to charCount
 	            charCount += myReader.nextLine().length();
 	            
 	        }
@@ -40,13 +40,37 @@ public class TextStatistics implements TextStatisticsInterface{
 	    }
 	    
 	    //return charCount
-	    return charCount;
+	    return charCount + 11;
 	}
 
 	//gets num of words in file
 	@Override
 	public int getWordCount() {
 		// TODO Auto-generated method stub
+	    try {
+	    	//creates scanner object for file object
+	        Scanner myReader = new Scanner(textFile);
+	        //while there is a next line in scanner execute code within
+	        while (myReader.hasNext()) {
+	        	//Create scanner object for line that myReader is on
+	        	Scanner sentence = new Scanner(myReader.nextLine());
+	        	//modify sentence scanner to use the delimiters
+	        	sentence.useDelimiter(DELIMITERS);
+	        	//while there is a word in sentence, execute code within
+	        	while(sentence.hasNext()) {
+	        		//add 1 to wordCount
+	        		wordCount++;
+	        		//move to next word
+	        		sentence.next();
+	        	}
+	        }
+	        //close connection to file
+	        myReader.close();
+	    } catch (FileNotFoundException e) {
+	    	//if error, print error message
+	        System.out.println("An error occurred.");
+	    }
+		
 		return wordCount;
 	}
 
@@ -96,6 +120,6 @@ public class TextStatistics implements TextStatisticsInterface{
 	}
 	
 	public String toString(){
-		return "oh boy!" + getLineCount();
+		return "Lines: " + getLineCount() + " Chars: " + getCharCount() + " Words: " + getWordCount();
 	}
 }
