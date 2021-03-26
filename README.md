@@ -45,9 +45,9 @@ right track when building things.
 
 ## Sources used
 
-[Help creating links](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
-[Finding index of letters in the alphabet](http://ferragamo-outlet.org/wp-content/uploads/2017/10/how-many-letters-are-in-the-english-alphabet-how-to-format-a-regarding-how-many-letters-are-in-the-english-alphabet.png)
-[Returning arrays in java](https://www.javatpoint.com/how-to-return-an-array-in-java)
-[Modifying arrays in java](https://stackoverflow.com/questions/44748048/modifying-arrays-in-java)
-[Adding elements to array in java](https://www.javatpoint.com/add-elements-to-array-in-java)
+[Help creating links](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links),
+[Finding index of letters in the alphabet](http://ferragamo-outlet.org/wp-content/uploads/2017/10/how-many-letters-are-in-the-english-alphabet-how-to-format-a-regarding-how-many-letters-are-in-the-english-alphabet.png),
+[Returning arrays in java](https://www.javatpoint.com/how-to-return-an-array-in-java),
+[Modifying arrays in java](https://stackoverflow.com/questions/44748048/modifying-arrays-in-java),
+[Adding elements to array in java](https://www.javatpoint.com/add-elements-to-array-in-java),
 [Project Requirements](http://cs.boisestate.edu/~cs121/projects/p4/#part3)
