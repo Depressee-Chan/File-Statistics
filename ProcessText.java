@@ -14,7 +14,7 @@ public class ProcessText {
 			//checks if file object is actually a file
 			if(textFile.exists() && textFile.isFile()) {
 				//creates new TextStatistics object with textFile object
-				TextStatistics info = new TextStatistics(textFile);
+				TextStatistics2 info = new TextStatistics2(textFile);
 				//calls toString method and prints out TextStatistics object
 				System.out.println(info.toString());
 				
