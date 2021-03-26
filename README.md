@@ -18,12 +18,13 @@ moment so be careful about what you throw at the sucker.
 
 ## Discussion
 
-Some problems I ran into were not remembering most of the stuff we learned about arrays,
-so I spend a good while googling things. Most of what I went through when creating the program
-was copying, pasting, and debugging seemingly trivial bits of code. I had to re-teach myself how
-arrays and arraylists work, I also had to learn how cli arguments and file reading with java works.
-Most of the errors I got were easily avoidable things like missing characters, improper syntax,
-forgetting to add stuff, etc. All of those problems were solved with a couple hours of frustration
+Some problems I ran into were not remembering most of the stuff we learned about arrays, having to re-do
+everything because I screwed up big time on the first time I tried stuff, and an existential crisis that
+I endured halfway through completing this project,all of thos problems were solved by googling things.
+Most of what I went through when creating the program was copying, pasting, and debugging seemingly trivial
+bits of code. I had to re-teach myself how arrays and arraylists work, I also had to learn how cli arguments
+and file reading with java works. Most of the errors I got were easily avoidable things like missing characters,
+improper syntax, forgetting to add/do stuff, etc. All of those problems were solved with a couple hours of frustration
 and a few good night's worth of rest and procrastination before revisiting the project. The most
 challenging part of the project was probably the word length things since nobody really had any clue
 how it was supposed to work when I asked them over spring break, and I was the only one I could ask
