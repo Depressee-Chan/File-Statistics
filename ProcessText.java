@@ -20,7 +20,7 @@ public class ProcessText {
 				
 			}else{
 				//if error with file not being found/detected, print an error message
-				System.out.println("Try entering a valid text file ending in .txt");
+				System.out.println("Try entering a valid text file ending in '.txt'");
 			}
 		}
 	}
