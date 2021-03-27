@@ -3,6 +3,7 @@ package fileSearcher;
 import java.io.*;
 import java.util.*;
 //java wanted lots of things during the making and testing of this so I just imported the entire util and io library
+//DecimalFormat library will be used for turning the avg word length double into a num with 2 decimal places
 import java.text.DecimalFormat;
 
 public class TextStatistics2 implements TextStatisticsInterface{
@@ -31,8 +32,9 @@ public class TextStatistics2 implements TextStatisticsInterface{
 			charCount = 0;
 			//creates list of letters in alphabet
 			letterCount = new int[26];
+			//this helps get the count of all chars since newline characters and spaces are also technically chars and can't be ignored during the char count 
 			int otherChars = 0;
-			
+			//while scanner has nextline, add 1 to lineCount and get stats for that line
 			while(fileScanner.hasNextLine()) {
 				
 				lineCount++;
@@ -129,7 +131,7 @@ public class TextStatistics2 implements TextStatisticsInterface{
 		return wordLength;
 	}
 	
-	/** @returns all data that the TextStatistics functions could return */
+	/** @returns all data that the TextStatistics2 functions could return */
 	public String toString() {	
 		//decimal format object to set average word length to 2 decimal places
 		DecimalFormat numFormat = new DecimalFormat("#.00");
@@ -156,3 +158,4 @@ public class TextStatistics2 implements TextStatisticsInterface{
 		return stats;
 	}
 }
+
