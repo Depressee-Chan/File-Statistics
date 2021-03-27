@@ -51,4 +51,5 @@ right track when building things.
 [Returning arrays in java](https://www.javatpoint.com/how-to-return-an-array-in-java),
 [Modifying arrays in java](https://stackoverflow.com/questions/44748048/modifying-arrays-in-java),
 [Adding elements to array in java](https://www.javatpoint.com/add-elements-to-array-in-java),
-[Project Requirements](http://cs.boisestate.edu/~cs121/projects/p4/#part3)
+[Project Requirements](http://cs.boisestate.edu/~cs121/projects/p4/#part3),
+[Formatting doubles to 2 decimal places](https://stackoverflow.com/questions/8819842/best-way-to-format-a-double-value-to-2-decimal-places#8819889)
